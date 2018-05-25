@@ -381,6 +381,9 @@
 .icon-calendar:before {
     content: "\f073";
 }
+.icon-notification:before {
+  content: "\ea08";
+}
 .icon-random:before {
     content: "\f074";
 }

@@ -36,6 +36,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mq.css">
 
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -51,7 +52,7 @@
 	</head>
 	<body>
 	
-	<header id="fh5co-header" style="height: 50vh;">
+	<header id="fh5co-header" style="height: 100vh;">
 		<div class="container">
 			<div class="col-md-6 col-sm-6">
 				<div class="intro">
@@ -62,15 +63,15 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-6">
+			<div class="col-md-6 col-sm-6 hideInMobile">
 				<figure class="fh5co-intro-img">
-					<img class="img-1 animate-box" src="images/app/menu_cut.jpeg" alt="Free Website Template by FreeHTML5.co" style="margin-top: 47px;">
-					<img class="img-2 animate-box hidden-xs" src="images/app/login_cut.jpeg" alt="Free Website Template by FreeHTML5.co">
+					<img class="img-1 animate-box" src="images/app/menu.jpeg" alt="Free Website Template by FreeHTML5.co" style="margin-top: 47px;">
+					<img class="img-2 animate-box hidden-xs" src="images/app/login.jpeg" alt="Free Website Template by FreeHTML5.co">
 				</figure>
 			</div>
 		</div>
 	</header>
-	<div class="container" style="height: 50vh;border-bottom: 2px solid #f2f2f2;">
+	<!--<div class="container" style="height: 50vh;border-bottom: 2px solid #f2f2f2;">
 		<div class="col-md-6 col-sm-6">
 			<div class="col-md-6 col-sm-6">
 				<center>ENTÉRATE</center>
@@ -91,43 +92,80 @@
 				<img class="" style="width: 100%;border-radius: 150px;margin-top: 15px;" src="images/app/abuelos.jpg" alt="Free Website Template by FreeHTML5.co">
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<div id="main">		
-		<div class="container">
-			<div class="row fh5co-feature">
-				<div class="col-md-6 col-md-push-6">
-					<div class="fh5co-copy">
-						<div class="fh5co-copy-inner">
-							<h2>Nuestra misión</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+		<div class="">
+			<div class="container">
+			<div id="features" style="border-bottom: 2px solid #f2f2f2;">				
+				<div class="row text-center fh5co-heading">
+					<div class="col-md-8 col-md-offset-2">
+						<h2>Caracteristicas y funciones:</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 animate-box">
+						<div class="feature-center">
+							<img style="width: 70%;" src="images/funciones/chicas_celu.png">
+							<br>
+							<h3 style="margin-top: 20px;">Conoce tu perfil de salud</h3>
+							<p>Ingresa los datos solicitados y podrás conocer cuál es tu estado actual de salud, tus acciones pendientes y las recomendaciones a seguir para tu bienestar. Puedes divertirte compartiendo tu perfil con la familia o amistades que saben que estar bien es lo más importante.</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-md-pull-6">
-					<div class="fh5co-img">
-						<figure class="fh5co-figure animate-box">
-							<img class="img-2" src="images/screenshot_1.jpg" alt="Free Website Template by FreeHTML5.co">	
-						</figure>
+					<div class="col-md-3 animate-box">
+						<div class="feature-center">
+							<center>
+							<div style="background-color: #488AFF;border-radius: 100px;width: 185px;height: 185px;">
+								<img style="width: 70%;margin:15%;" src="images/funciones/notificacion.png">
+							</div>
+							</center>
+							<h3 style="margin-top: 20px;">Alertas Preventivas Personalizadas</h3>
+							<p>Salud Total App, es un compañero de vida que envía notificaciones de alerta personalizadas de acuerdo a tu perfil de salud, sobre el momento preciso para controlar tus funciones corporales, realizarte chequeos preventivos y controlar tus enfermedades.</p>
+						</div>
 					</div>
-				</div>
+					<div class="col-md-3 animate-box">
+						<div class="feature-center">
+							<center>
+							<div style="background-color: #FFAF2C;border-radius: 100px;width: 185px;height: 185px;">
+								<img style="width: 70%;margin:15%;padding-left: 5%;" src="images/funciones/formulario.png">
+							</div>
+							</center>
+							
+							<h3 style="margin-top: 20px;">Responde a tus datos de ingreso</h3>
+							<p>Al ingresar tus datos de salud solicitados, Salud Total App, reconoce los datos ingresados y te indica de inmediato, cuando están fuera de los rangos normales o ponen en riesgo tu salud.</p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box">
+						<div class="feature-center">
+							<img style="width: 70%;" src="images/funciones/bebe.png">
+							<br>
+							<h3 style="margin-top: 20px;">Mantén a tu bebé saludable</h3>
+							<p>El cuidado de las criaturas más vulnerables siempre es especial, por ello, ingresando los datos de tu bebe menor de 5 años, recibes las alertas necesarias para llevar sus controles de
+crecimiento y desarrollo, y colocar sus vacunas en el momento adecuado. Así puedes tener la
+tranquilidad de que tú bebé crece sano y protegido.</p>
+						</div>
+					</div>
+				</div>				
+			</div>	
 			</div>
 			<!-- END feature -->
-
-			<div class="row fh5co-feature fh5co-reverse">
+			
+			<div class="row fh5co-feature fh5co-reverse" style="background-color: #F2F2F2;">
+				<div class="container">
 				<div class="col-md-6">
 					<div class="fh5co-copy">
 						<div class="fh5co-copy-inner">
 							<h2>Premios y Beneficios</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<p>Gana fabulosos regalos, descuentos, premios y beneficios con Salud Total App, participando de la trivia de salud, donde podrás acumular puntos y conseguir tus 5 estrellas de la salud que podrás canjear. Y pronto muchas sorpresas más! Revisa nuestro cuadro de beneficios y canjes.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="fh5co-img">
-						<figure class="fh5co-figure animate-box">
-							<img class="img-2" src="images/screenshot_2.jpg" alt="Free Website Template by FreeHTML5.co">	
+						<figure class="animate-box" >
+							<img class="" style="width: 70%;margin-left: 20%;padding-top: 10%" src="images/funciones/premio.png" alt="Free Website Template by FreeHTML5.co">	
 						</figure>
 					</div>
+				</div>
 				</div>
 			</div>
 			<!-- END feature 
@@ -155,11 +193,11 @@
 					<div class="row text-center fh5co-heading">
 						<div class="col-md-8 col-md-offset-2">
 							<h2>Aliados en la salud</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>A continuación nuestros aliados en el camino a tu salud:</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-3 animate-box">
+						<div class="col-md-4 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<img style="width: 150px;height: 150px;" src="images/patners/inkafarma.jpg">
@@ -167,23 +205,15 @@
 								<h3 style="font-weight: bold;">Inkafarma</h3>
 							</div>
 						</div>
-						<div class="col-md-3 animate-box">
+						<div class="col-md-4 animate-box">
 							<div class="feature-center">
 								<span class="icon">
-									<img style="width: 150px;height: 150px;" src="images/patners/mifarma.jpg">
+									<img style="width: 250px;height: 150px;" src="images/patners/pacificoseguro.jpg">
 								</span>
-								<h3 style="font-weight: bold;">Mifarma</h3>
+								<h3 style="font-weight: bold;">Pacifico seguros</h3>
 							</div>
 						</div>
-						<div class="col-md-3 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<img style="width: 150px;height: 150px;" src="images/patners/javierprado.png">
-								</span>
-								<h3 style="font-weight: bold;">Clinica Javier Prado</h3>
-							</div>
-						</div>
-						<div class="col-md-3 animate-box">
+						<div class="col-md-4 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<img style="width: 150px;height: 150px;" src="images/patners/rimac.jpg">
@@ -262,45 +292,40 @@
 			<div class="container">
 				<div class="row text-center fh5co-heading">
 					<div class="col-md-8 col-md-offset-2">
-						<h2>Mas caracteristicas y funciones</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h2>Más caracteristicas y funciones</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3 animate-box">
 						<div class="feature-center">
-							<span class="icon">
-								<i class="icon-tablet"></i>
-							</span>
-							<h3>Fully Responsive</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<img style="width: 70%;" src="images/funciones/ancianos.png">
+							<br>
+							<h3 style="margin-top: 20px;">Cuida a los que amas</h3>
+							<p>Salud Total App te permite crear en tu misma cuenta, el perfil de salud de las personas adultas a tu cuidado y recibir las alertas para controlar sus funciones corporales, chequeos preventivos y controlar sus enfermedades, así podrás mantener la salud de los que amas.</p>
+						</div>
+					</div>					
+					<div class="col-md-3 animate-box">
+						<div class="feature-center">
+							<img style="width: 70%;" src="images/funciones/geolocalizacion.png">
+							<br>
+							<h3 style="margin-top: 20px;">Pide tus medicamentos</h3>
+							<p>Desde Salud Total App, puedes también geolocalizar rápidamente a las farmacias más cercanas o puedes llamar directamente al delivery de tu farmacia favorita con solo presionar un botón.</p>
 						</div>
 					</div>
 					<div class="col-md-3 animate-box">
 						<div class="feature-center">
-							<span class="icon">
-								<i class="icon-heart"></i>
-							</span>
-							<h3>Love by everyone</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<img style="width: 70%;" src="images/funciones/ambulancia.png">
+							<br>
+							<h3 style="margin-top: 20px;">Llamado rápido en caso de emergencias</h3>
+							<p>Nadie está libre de un evento inesperado de salud que amerite una atención urgente, por eso, Salud Total App te permite contactar rápidamente a los servicios de emergencia y ambulancias.</p>
 						</div>
 					</div>
 					<div class="col-md-3 animate-box">
 						<div class="feature-center">
-							<span class="icon">
-								<i class="icon-star"></i>
-							</span>
-							<h3>Good Review</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-						</div>
-					</div>
-					<div class="col-md-3 animate-box">
-						<div class="feature-center">
-							<span class="icon">
-								<i class="icon-cog"></i>
-							</span>
-							<h3>API</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<img style="width: 70%;" src="images/funciones/medicos.png">
+							<br>
+							<h3 style="margin-top: 20px;">Solicita servicios de salud</h3>
+							<p>Desde Salud Total App, puedes solicitar servicios de salud en la comodidad de tu hogar. Recibe Asistencia médica, enfermería, laboratorio, terapia física, psicología, entre otros. También puedes separar citas en los establecimientos de salud más confiables cerca de tu ubicación.</p>
 						</div>
 					</div>
 				</div>
@@ -319,7 +344,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label style="color: white;" for="name" class="sr-only">Nombre</label>
-								<input type="text" class="form-control" id="name" placeholder="Name">
+								<input type="text" class="form-control" id="name" placeholder="Nombre">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -339,8 +364,11 @@
 			<div class="container">
 				<div class="col-md-12 text-center">
 					<p class="copyright">
-						<small>&copy; 2018. Salud Total App. All Rights Reserved.</small>
+						<small>&copy; 2018. Salud Total App. Todos los derechos reservados.</small>
 						<em><small>Diseñado por BridgeCode. Imágenes de: <a href="https://pixabay.com/" target="_blank">Pixabay</a></small></em>
+						<br>
+						<small><a href="terminos-y-condiciones.html">Seguridad (políticas de privacidad).</a><br>
+						<a href="#">Información importante.</a></small>
 					</p>
 					<ul class="fh5co-social">
 
