@@ -85,7 +85,33 @@
 	$(function(){
 		testimonialCarousel();
 		contentWayPoint();
-		
+		$(".owl-carousel-features").owlCarousel({ 
+		    // Most important owl features
+		    autoPlay: false,
+	        slideSpeed: 2000,
+	        pagination: false,
+	        navigation: true,
+	        items: 4,
+	        responsiveClass: true,
+			responsiveRefreshRate: true,
+			responsive : {
+			  0 : {
+			      items: 1
+			  },
+			  768 : {
+			      items: 2
+			  },
+			  960 : {
+			      items: 3
+			  },
+			  1200 : {
+			      items: 3
+			  },
+			  1920 : {
+			      items: 6
+			  }
+			}
+		});
 	});
 
 
